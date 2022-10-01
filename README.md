@@ -1,6 +1,7 @@
 # WSL-Remote-Desktop
 
-Using Remote Desktop Connection for Windows 10 to have GUI for wsl Ubuntu
+Using Remote Desktop Connection for Windows 10 to have GUI for wsl Ubuntu. 
+Bash script makes the install process for WSL Ubuntu easy and simple.
 
 # More in depth info
 
