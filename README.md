@@ -1,6 +1,6 @@
 # WSL-Remote-Desktop
 
-# Using Remote Desktop Connection for Windows 10 to get gui for wsl Ubuntu
+Using Remote Desktop Connection for Windows 10 to have GUI for wsl Ubuntu
 
 # More in depth info
 
