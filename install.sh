@@ -1,7 +1,4 @@
 #!/bin/bash
-
-# startupxrdp.sh located in /home directory
-
 file_name=startxrdp
 file_location=/home/$file_name.sh
 if [ -e $file_location ]; then
@@ -12,6 +9,8 @@ else
 /etc/init.d/xrdp start
 EOF
 fi
+cp /home/$file_name.sh $file_name.sh
+chmod +x $file_name.sh
 yes | apt-get update
 yes | apt upgrade && apt-get install xrdp xfce4 xfce4-goodies
 yes | apt-get update
@@ -28,5 +27,5 @@ sed -i 's/^exec/#exec/g' /etc/xrdp/startwm.sh
 sed -i -e '$a\#xrdp' /etc/xrdp/startwm.sh
 sed -i -e '$a\startxfce4' /etc/xrdp/startwm.sh
 #echo 'startwm.sh good'
-
-echo '______MOVE TO /home directory before running startxrdp.sh'
+echo 'done'
+echo 'Type: sudo ./startxrdp.sh    to start server.'
