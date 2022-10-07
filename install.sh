@@ -11,6 +11,8 @@ EOF
 fi
 cp /home/$file_name.sh $file_name.sh
 chmod +x $file_name.sh
+sleep 1
+rm -rf /home/$file_name.sh
 yes | apt-get update
 yes | apt upgrade && apt-get install xrdp xfce4 xfce4-goodies
 yes | apt-get update
