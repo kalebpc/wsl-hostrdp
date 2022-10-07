@@ -29,5 +29,6 @@ sed -i 's/^exec/#exec/g' /etc/xrdp/startwm.sh
 sed -i -e '$a\#xrdp' /etc/xrdp/startwm.sh
 sed -i -e '$a\startxfce4' /etc/xrdp/startwm.sh
 #echo 'startwm.sh good'
+rm -rf instal-wsl-remote-desktop.sh
 echo 'done'
 echo 'Type: sudo ./startxrdp.sh    to start server.'
