@@ -16,9 +16,9 @@ https://www.youtube.com/watch?v=IL7Jd9rjgrM
 
 ~$ git clone https://github.com/kalebpc/WSL-Remote-Desktop.git
 
-~$ cp WSL-Remote-Desktop/install.sh install.sh
+~$ cp WSL-Remote-Desktop/install.sh install-wsl-remote-desktop.sh
 
-~$ sudo sh install.sh
+~$ sudo sh install-wsl-remote-desktop.sh
 
 ~$ sudo ./startxrdp.sh
 
