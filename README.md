@@ -2,9 +2,8 @@
 
 Setup Remote Desktop Connection from Win 10 to wsl Ubuntu
 
-# More in depth info
-
-https://github.com/davidbombal/wsl2/blob/main/ubuntu_gui_youtube
+In depth info:
+<a href="https://github.com/davidbombal/wsl2/blob/main/ubuntu_gui_youtube">David Bombal github</a>
 
 https://www.youtube.com/watch?v=IL7Jd9rjgrM
 
