@@ -8,9 +8,7 @@ In depth info:
 
 # Install Steps
 
-1. Open Ubuntu from start menu in Windows.
-
-~$ sudo apt-get install git
+1. Open Ubuntu from Windows
 
 ~$ git clone https://github.com/kalebpc/WSL-Remote-Desktop.git
 
@@ -21,4 +19,4 @@ In depth info:
 4. Back in Windows >
 - Open Remote Destop Connection app
 - Computer > localhost:3390
-- Login credentials are your Ubuntu credentials
+- Login credentials are Ubuntu credentials
