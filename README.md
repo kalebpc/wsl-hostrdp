@@ -16,13 +16,11 @@ https://www.youtube.com/watch?v=IL7Jd9rjgrM
 
 ~$ git clone https://github.com/kalebpc/WSL-Remote-Desktop.git
 
-~$ cp WSL-Remote-Desktop/install.sh instal-wsl-remote-desktop.sh
+~$ sudo sh WSL-Remote-Desktop/install.sh 
 
-~$ sudo sh instal-wsl-remote-desktop.sh
-
-~$ sudo ./startxrdp.sh
+~$ sudo startxrdp
 
 4. Back in Windows >
-- Open Remote Destop Connection
+- Open Remote Destop Connection app
 - Computer > localhost:3390
 - Login credentials are your Ubuntu credentials
